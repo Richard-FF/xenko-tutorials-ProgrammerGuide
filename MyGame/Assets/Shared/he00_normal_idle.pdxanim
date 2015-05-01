@@ -1,0 +1,12 @@
+!Animation
+Id: 56d0eb20-f7ab-4f5c-a09a-c4f1ec10f35a
+Tags: []
+Source: ../../RawAssets/knight/he00_normal_idle.fbx
+RepeatMode: LoopInfinite
+~Base:
+    Location: --import--
+    Asset: !Animation
+        Id: 00000000-0000-0000-0000-000000000000
+        Tags: []
+        ImporterId: a15ae42d-42c5-4a3b-9f7e-f8cd91eda595
+        RepeatMode: LoopInfinite

@@ -1,0 +1,14 @@
+!MaterialAsset
+Id: 512454fa-0d93-4c6d-ad1c-5e606ec4cfb4
+Tags: []
+Attributes:
+    Diffuse: !MaterialDiffuseMapFeature
+        DiffuseMap: !ComputeTextureColor
+            Texture: 42d91436-b3bd-4ea6-b0f3-a3a51a22b9a8:stone0_dif
+            Scale: {X: 1, Y: 1}
+            Offset: {X: 0, Y: 0}
+    DiffuseModel: !MaterialDiffuseLambertModelFeature {}
+    Overrides:
+        UVScale: {X: 3, Y: 3}
+Layers: []
+Parameters: {}

@@ -1,0 +1,12 @@
+!Texture
+Id: 42d91436-b3bd-4ea6-b0f3-a3a51a22b9a8
+Tags: []
+Source: ../../RawAssets/stone0_dif.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+~Base:
+    Location: --import--
+    Asset: !Texture
+        Id: 00000000-0000-0000-0000-000000000000
+        Tags: []
+        ImporterId: a60986f3-a594-4278-bd9d-68ea172f0558
+        ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
