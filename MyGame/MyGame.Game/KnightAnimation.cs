@@ -2,7 +2,7 @@
 
 namespace MyGame
 {
-    public class KnightAnimation:Script
+    public class KnightAnimation:StartupScript
     {
         public override void Start()
         {

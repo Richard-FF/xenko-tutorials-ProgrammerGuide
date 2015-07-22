@@ -1,5 +1,6 @@
 !MaterialAsset
 Id: 512454fa-0d93-4c6d-ad1c-5e606ec4cfb4
+SerializedVersion: 1
 Tags: []
 Attributes:
     Diffuse: !MaterialDiffuseMapFeature
@@ -11,4 +12,3 @@ Attributes:
     Overrides:
         UVScale: {X: 3, Y: 3}
 Layers: []
-Parameters: {}

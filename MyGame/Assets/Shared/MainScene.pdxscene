@@ -1,5 +1,6 @@
 !SceneAsset
 Id: 74000b3c-2852-4a30-baf8-611a6fedb3c8
+SerializedVersion: 6
 Tags: []
 Hierarchy:
     RootEntity: fba476c1-a531-4a0c-b58a-639ffd73b816
@@ -22,8 +23,6 @@ Hierarchy:
                         - null
                         - null
                         - null
-                    DrawOrder: 0
-                    Parameters: {}
                 ScriptComponent.Key:
                     Scripts:
                         - !MyGame.KnightAnimation,MyGame.Game
@@ -71,12 +70,10 @@ Hierarchy:
                     Model: 5b75972d-1e59-4dc9-88db-addcd1350e6b:ProceduralModel
                     Materials:
                         - null
-                    DrawOrder: 0
-                    Parameters: {}
                 TransformComponent.Key:
                     Position: {X: 0, Y: 0, Z: 0}
-                    Rotation: {W: 0.707106769, X: -0.707106769, Y: 0, Z: 0}
-                    Scale: {X: 5, Y: 5, Z: 1}
+                    Rotation: {W: 1, X: 0, Y: 0, Z: 0}
+                    Scale: {X: 5, Y: 5, Z: 5}
                     Children: []
             Id: ee88851d-64bd-46cf-a9eb-42d2deecaf29
         - !Scene
