@@ -1,5 +1,6 @@
 !Package
 Id: b71a9cdd-fb23-4026-83e9-51d90674c66d
+SerializedVersion: {Assets: 0.0.2}
 Tags: []
 Meta:
     Name: MyGame
@@ -8,8 +9,9 @@ Meta:
     Owners: []
     RootNamespace: MyGame
     Dependencies:
-        -   Name: Paradox
-            Version: 1.2.0-beta
+        -   Name: Xenko
+            Version: 1.4.0-beta
+            RootAssets: []
 LocalDependencies: []
 Profiles:
     -   Name: Shared
@@ -17,15 +19,9 @@ Profiles:
         InheritProfiles: []
         AssetFolders:
             -   Path: Assets/Shared
-                RawImports: []
             -   Path: MyGame.Game/Effects
-                RawImports: []
         OutputGroupDirectories: {}
         Properties:
-            GameSettingsAsset.BackBufferHeight: 720
-            GameSettingsAsset.BackBufferWidth: 1280
-            GameSettingsAsset.DefaultGraphicsProfile: Level_10_0
-            GameSettingsAsset.DefaultScene: 74000b3c-2852-4a30-baf8-611a6fedb3c8:MainScene
             Paradox.DisplayOrientation: LandscapeRight
         ProjectReferences:
             -   Id: d23884cc-c360-4d23-a1be-089a489ec1e6
@@ -36,7 +32,6 @@ Profiles:
         InheritProfiles: []
         AssetFolders:
             -   Path: Assets/Windows
-                RawImports: []
         OutputGroupDirectories: {}
         Properties:
             Paradox.GraphicsPlatform: Direct3D11
@@ -47,3 +42,19 @@ Profiles:
 ExplicitFolders: []
 Bundles: []
 TemplateFolders: []
+RootAssets:
+    - 04ab2af8-c105-4741-8fd3-bc93cce3daa0:c100_chr_ch00_Knight_KINGHT
+    - 1c00dc80-0ba0-47d9-9433-79f4fd3fbb4f:c100_weapon_cm
+    - 42d91436-b3bd-4ea6-b0f3-a3a51a22b9a8:stone0_dif
+    - 512454fa-0d93-4c6d-ad1c-5e606ec4cfb4:Material
+    - 56d0eb20-f7ab-4f5c-a09a-c4f1ec10f35a:he00_normal_idle
+    - 5b75972d-1e59-4dc9-88db-addcd1350e6b:ProceduralModel
+    - 74000b3c-2852-4a30-baf8-611a6fedb3c8:MainScene
+    - 7b69a7cb-0440-4b65-902b-04871ccee474:c100_body_cm
+    - 808bb91f-c22e-4309-a63a-f7cccd20915d:c100_weapon_nm
+    - 9859ab79-ea14-49c0-9a23-353eb77e4938:ParadoxBackground
+    - aa6e78be-1530-4120-8e7b-97e5b85d0768:c100_chr_ch00_Knight_KINGHT_iron
+    - b77c1e3b-74af-4aac-8562-04f86bb34a64:knight
+    - bd0230e4-9ca4-484f-9794-1b2a4d4ec621:Font
+    - bfefa2b4-d737-4565-93dc-248130fa9e29:c100_chr_ch00_Knight_SWORD1
+    - e65ec8da-8f8c-4803-80a1-9caea25567b3:c100_body_nm

@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyGame", "MyGame", "{B71A9CDD-FB23-4026-83E9-51D90674C66D}"
 	ProjectSection(SiliconStudioPackage) = preProject
-		MyGame/MyGame.pdxpkg = MyGame/MyGame.pdxpkg
+		MyGame/MyGame.xkpkg = MyGame/MyGame.xkpkg
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGame.Windows", "MyGame\MyGame.Windows\MyGame.Windows.csproj", "{9D88FF45-F9FA-45BB-A9FC-1FD31C35865B}"

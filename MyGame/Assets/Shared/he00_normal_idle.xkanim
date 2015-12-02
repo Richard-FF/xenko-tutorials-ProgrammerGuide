@@ -8,5 +8,6 @@ RepeatMode: LoopInfinite
     Asset: !Animation
         Id: 00000000-0000-0000-0000-000000000000
         Tags: []
+        Source: 
         ImporterId: a15ae42d-42c5-4a3b-9f7e-f8cd91eda595
         RepeatMode: LoopInfinite
